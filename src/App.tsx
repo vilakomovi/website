@@ -276,7 +276,7 @@ function App() {
                             <CardBody>
                                 <VStack w="full" h="full" spacing={10} alignItems="flex-start">
                                     <Heading  as="h2" size="xl" mb={1}>Dugotrajna stolarija</Heading>
-                                    <Text>Kada birate stolariju, ne samo da tražite kvalitet i dugotrajnost, već i estetski izgled. Naši stanovi imaju najkvalitetniju  stolarija koja je pažljivo odabrana kako bi pružila najbolje performanse, kao i moderan i elegantan izgled. Specijalna tehnologija omogućava izolaciju od spoljašnje buke, pružajući mir i tišinu u vašem domu.</Text>
+                                    <Text>Kada birate stolariju, ne samo da tražite kvalitet i dugotrajnost, već i estetski izgled. Naši stanovi imaju najkvalitetniju stolariju koja je pažljivo odabrana kako bi pružila najbolje performanse, kao i moderan i elegantan izgled. Specijalna tehnologija omogućava izolaciju od spoljašnje buke, pružajući mir i tišinu u vašem domu.</Text>
                                 </VStack>
                             </CardBody>
                             <Divider color="#CBD5E0" />
