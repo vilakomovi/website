@@ -232,7 +232,7 @@ function App() {
                             <CardBody>
                                 <VStack w="full" h="full" spacing={10} alignItems="flex-start">
                                     <Heading as="h2" size="xl" mb={1}>Kvalitet sanitarija</Heading>
-                                    <Text>Kada se radi o kupatilu, kvalitet sanitarija je ključan. Naši apartmani dolaze sa najkvalitetnijim sanitarnim uređajima, uključujući tuš kabine, slavine i keramičke pločice. Sanitarije opremljene naprednim sistemima za uštedu vode, smanjujući potrošnju i brinući o životnoj sredini. Elegantne linije i savremeni dizajn sanitarija donose luksuz i stil u svaku kupatilo.</Text>
+                                    <Text>Kada se radi o kupatilu, kvalitet sanitarija je ključan. Naši apartmani dolaze sa najkvalitetnijim sanitarnim uređajima, uključujući tuš kabine, slavine i keramičke pločice. Sanitarije opremljene naprednim sistemima za uštedu vode, smanjujući potrošnju i brinući o životnoj sredini. Elegantne linije i savremeni dizajn sanitarija donose luksuz i stil u svako kupatilo.</Text>
                                 </VStack>
                             </CardBody>
                             <Divider color="#CBD5E0" />
