@@ -6,8 +6,6 @@ import App from './App.tsx'
 
 import './index.css'
 import {
-    // createBrowserRouter,
-    // RouterProvider,
     HashRouter,
     Route,
     Routes,
@@ -23,23 +21,6 @@ const theme = extendTheme({
     },
 })
 
-// const router = createBrowserRouter([
-//     {
-//         path: '/',
-//         element: <MainLayout />,
-//         children: [
-//             {
-//                 path: '',
-//                 element: <App />
-//             },
-//             {
-//                 path: '/apartment/:apartmentId',
-//                 element: <ApartmentNode />
-//             }
-//         ]
-//     },
-// ])
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
       <ChakraProvider theme={theme}>
@@ -52,7 +33,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
                   </Route>
               </Routes>
           </HashRouter>
-          {/*<RouterProvider router={router} />*/}
       </ChakraProvider>
   </React.StrictMode>,
 )
