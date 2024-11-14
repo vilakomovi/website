@@ -1,34 +1,23 @@
-import {APIProvider, Map, Marker} from "@vis.gl/react-google-maps";
-
+/**
+ * Location:
+ * lat: 43.736823,
+ * lng: 19.711369,
+ * @constructor
+ */
 const LocationMap = () => {
-    const placeLocation = {
-        lat: 43.736823,
-        lng: 19.711369,
-    }
-
-    const styles = {
-        borderRadius: '20px',
-        height: '500px',
-        width: '100%',
-    }
-
-    console.warn('1', import.meta.env.VITE_GOOGLE_MAPS_API_KEY)
-    console.warn('2', import.meta.env)
-    console.warn('3', import.meta)
-
     return (
-        <div>
-            <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
-                <Map style={styles}
-                     defaultZoom={18}
-                     defaultCenter={placeLocation}
-                     gestureHandling={'greedy'}
-                     disableDefaultUI
-                     scrollwheel={false}
-                >
-                    <Marker position={placeLocation}/>
-                </Map>
-            </APIProvider>
+        <div className="mapouter">
+            <div className="gmap_canvas">
+                <iframe width="100%" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=43.736823,%2019.711369&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        frameBorder="0"
+                        scrolling="no"
+                        marginHeight={0}
+                        marginWidth={0}
+                ></iframe>
+                <a href="https://123movies-to.org"></a><br/>
+                <a href="https://www.embedgooglemap.net"></a>
+            </div>
         </div>
     );
 };
