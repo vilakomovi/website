@@ -12,6 +12,10 @@ const LocationMap = () => {
         width: '100%',
     }
 
+    console.warn('1', import.meta.env.VITE_GOOGLE_MAPS_API_KEY)
+    console.warn('2', import.meta.env)
+    console.warn('3', import.meta)
+
     return (
         <div>
             <APIProvider apiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
