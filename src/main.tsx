@@ -5,49 +5,54 @@ import {ChakraProvider, extendTheme} from "@chakra-ui/react";
 import App from './App.tsx'
 
 import './index.css'
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {
+    // createBrowserRouter,
+    // RouterProvider,
+    HashRouter,
+    Route,
+    Routes,
+} from "react-router-dom";
 import ApartmentNode from "./pages/ApartmentNode";
 import MainLayout from "./layouts/MainLayout";
 import {GlobalStyle} from "./App.styled.ts";
 
 const theme = extendTheme({
     fonts: {
-        // body: `'Montserrat Alternates', sans-serif`,
-        // heading: `'Montserrat Alternates', sans-serif`,
-
-        // body: `'DM Serif Display', serif`,
-        // heading: `'DM Serif Display', serif`,
-
-        // body: `"Libre Franklin", sans-serif`,
-        // heading: `"Libre Franklin", sans-serif`,
-
         body: `'Poppins', sans-serif`,
         heading: `'Poppins', sans-serif`,
     },
 })
 
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <MainLayout />,
-        children: [
-            {
-                path: '',
-                element: <App />
-            },
-            {
-                path: '/apartment/:apartmentId',
-                element: <ApartmentNode />
-            }
-        ]
-    },
-])
+// const router = createBrowserRouter([
+//     {
+//         path: '/',
+//         element: <MainLayout />,
+//         children: [
+//             {
+//                 path: '',
+//                 element: <App />
+//             },
+//             {
+//                 path: '/apartment/:apartmentId',
+//                 element: <ApartmentNode />
+//             }
+//         ]
+//     },
+// ])
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
       <ChakraProvider theme={theme}>
           <GlobalStyle />
-          <RouterProvider router={router} />
+          <HashRouter>
+              <Routes>
+                  <Route path="/" element={<MainLayout />}>
+                      <Route path="/" element={<App />} />
+                      <Route path="apartment/:apartmentId" element={<ApartmentNode />} />
+                  </Route>
+              </Routes>
+          </HashRouter>
+          {/*<RouterProvider router={router} />*/}
       </ChakraProvider>
   </React.StrictMode>,
 )

@@ -1,5 +1,6 @@
 import {RefObject, useRef} from "react";
 import {Element} from "react-scroll";
+import {NavLink} from "react-router-dom";
 import {
     Box,
     Center,
@@ -87,7 +88,7 @@ function App() {
             <Divider color="#CBD5E0" />
             <CardFooter>
                 <StyledApartmentCardFooter className="StyledApartmentCardFooter" w="full">
-                    <Link className="card-link" href={`/apartment/${apartment.node}`}>Pogledajte detaljnije</Link>
+                    <NavLink className="card-link" to={`/apartment/${apartment.node}`}>Pogledajte detaljnije</NavLink>
                     <Link href={apartment.pdf} isExternal>
                         <Button
                             gap={2} size="sm"
