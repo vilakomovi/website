@@ -34,7 +34,7 @@ import {apartmentList} from "./constants/global.ts";
 
 import Icon from "./components/Icon";
 import LocationMap from "./components/LocationMap";
-import {StyledApartmentCardFooter, StyledOverlay} from "./App.styled.ts";
+import {StyledApartmentCardFooter} from "./App.styled.ts";
 
 const CheckItem = () => <Icon icon="check" size={20} style={{ marginRight: '5px' }} color="#BD8F6F" />
 
@@ -201,7 +201,6 @@ function App() {
     const renderIntroImageSection = () => {
         return (
             <Container overflow="hidden" maxWidth="100%" w="100%" height={{ base: 'auto', md: '800px' }} position="relative" p={0}>
-                <StyledOverlay className="StyledOverlay" />
                 <Image src="/images/naslovna.jpg" alt="Naslovna" style={{ objectFit: 'cover', width: '100%', zIndex: -1, position: 'relative' }} objectPosition={{ base: '0 0', md: '0 0px' }}/>
             </Container>
         )
@@ -381,6 +380,17 @@ function App() {
                                             <VStack alignItems={{ base: 'center', md: 'flex-start' }} spacing={5} flexDirection="column">
                                                 <Heading as="h4" size="md">Uživajte u životu u gradu</Heading>
                                                 <Text>Naši stanovi su smešteni u mirnom delu Zlatibora, sklonjeni od gradske buke.</Text>
+                                            </VStack>
+                                        </HStack>
+                                    </GridItem>
+                                </GridItem>
+                                <GridItem>
+                                    <GridItem>
+                                        <HStack alignItems={{ base: 'center', md: 'flex-start' }} spacing={5} flexDirection={{ base: 'column', md: 'row' }}>
+                                            <Icon icon="service" size={50} />
+                                            <VStack alignItems="flex-start">
+                                                <Heading as="h4" size="md">Uknjiženo i odmah useljivo</Heading>
+                                                <Text>Naši stanovi su uknjiženi i spremni za useljenje.</Text>
                                             </VStack>
                                         </HStack>
                                     </GridItem>

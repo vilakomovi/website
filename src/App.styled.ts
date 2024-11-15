@@ -1,7 +1,6 @@
 import {createGlobalStyle} from "styled-components";
 import {HStack} from "@chakra-ui/react";
 import styled from "@emotion/styled";
-import {Stack} from "@chakra-ui/icons";
 
 export const GlobalStyle = createGlobalStyle`
     a {
@@ -58,13 +57,4 @@ export const StyledApartmentCardFooter = styled(HStack)`
         transform-origin: top left;
         transition: transform 0.3s ease;
     }
-`
-
-export const StyledOverlay = styled(Stack)`
-    position: absolute;
-    inset: 0;
-    //background-color: rgba(38, 38, 38, 0.3);
-    background-color: #262626;
-    opacity: 0.3;
-    z-index: 1;
 `
