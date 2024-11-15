@@ -395,42 +395,6 @@ function App() {
                                         </HStack>
                                     </GridItem>
                                 </GridItem>
-
-                                {/*
-                                <GridItem>
-                                    <GridItem>
-                                        <HStack alignItems={{ base: 'center', md: 'flex-start' }} spacing={5} flexDirection={{ base: 'column', md: 'row' }}>
-                                            <Icon icon="dash" size={50} />
-                                            <VStack alignItems="flex-start">
-                                                <Heading as="h4" size="md">Bez brige o parkiranju</Heading>
-                                                <Text>Naši stanovi dolaze sa obezbeđenim parking mestima ili garažama, tako da se ne morate brinuti o parkiranju.</Text>
-                                            </VStack>
-                                        </HStack>
-                                    </GridItem>
-                                </GridItem>
-                                <GridItem>
-                                    <GridItem>
-                                        <HStack alignItems={{ base: 'center', md: 'flex-start' }} spacing={5} flexDirection={{ base: 'column', md: 'row' }}>
-                                            <Icon icon="laptop" size={50} />
-                                            <VStack alignItems="flex-start">
-                                                <Heading as="h4" size="md">Sigurnost na prvom mestu</Heading>
-                                                <Text>Naši stanovi su opremljeni najsavremenijim sistemima za bezbednost, kao što su video nadzor i interfon.</Text>
-                                            </VStack>
-                                        </HStack>
-                                    </GridItem>
-                                </GridItem>
-                                <GridItem>
-                                    <GridItem>
-                                        <HStack alignItems={{ base: 'center', md: 'flex-start' }} spacing={5} flexDirection={{ base: 'column', md: 'row' }}>
-                                            <Icon icon="service" size={50} />
-                                            <VStack alignItems="flex-start">
-                                                <Heading as="h4" size="md">Prostrani i funkcionalni prostori</Heading>
-                                                <Text>Naši stanovi su dizajnirani sa pažnjom prema detaljima, tako da nude prostrane i funkcionalne prostore za vašu udobnost i zadovoljstvo.</Text>
-                                            </VStack>
-                                        </HStack>
-                                    </GridItem>
-                                </GridItem>
-                                */}
                             </Grid>
                         </Center>
                     </Flex>
