@@ -63,5 +63,8 @@ export const StyledApartmentCardFooter = styled(HStack)`
 export const StyledOverlay = styled(Stack)`
     position: absolute;
     inset: 0;
-    background-color: rgba(38,38,38,0.3);
+    //background-color: rgba(38, 38, 38, 0.3);
+    background-color: #262626;
+    opacity: 0.3;
+    z-index: 1;
 `

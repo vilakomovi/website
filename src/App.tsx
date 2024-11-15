@@ -220,7 +220,7 @@ function App() {
                             <Heading as="h3" size="md" style={{ textTransform: 'uppercase' }}>Gradnja</Heading>
                             <Heading as="h2" size="lg">Naš glavni fokus je kvalitet gradnje</Heading>
                             <Text align={{ base: 'left', md: 'center' }} mb={5} maxWidth="container.xl">
-                                Kada se radi o kupatilu, kvalitet sanitarija je ključan. Naši stanovi dolaze sa najkvalitetnijim sanitarnim uređajima, uključujući tuš kabine, slavine i keramičke pločice. Ovi uređaji su pažljivo odabrani kako bi pružili najbolje performanse, kao i moderni izgled.
+                                Stanovi na Zlatiboru koje nudimo projektovani su tako da zadovolje najviše standarde kvaliteta. Masivni zidovi pružaju sigurnost, vrhunska izolacija obezbeđuje mir i uštedu energije, dok savremena sanitarna oprema i izdržljiva stolarija osiguravaju funkcionalnost i trajnost. Vaš dom iz snova počinje ovde.
                             </Text>
                         </HStack>
                     </Flex>
