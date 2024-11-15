@@ -388,7 +388,7 @@ function App() {
                                     <GridItem>
                                         <HStack alignItems={{ base: 'center', md: 'flex-start' }} spacing={5} flexDirection={{ base: 'column', md: 'row' }}>
                                             <Icon icon="service" size={50} />
-                                            <VStack alignItems="flex-start">
+                                            <VStack alignItems={{ base: 'center', md: 'flex-start' }} spacing={5} flexDirection="column">
                                                 <Heading as="h4" size="md">Uknjiženo i odmah useljivo</Heading>
                                                 <Text>Naši stanovi su uknjiženi i spremni za useljenje.</Text>
                                             </VStack>
