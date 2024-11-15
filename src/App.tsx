@@ -250,7 +250,7 @@ function App() {
 
                         <Card maxW="md">
                             <CardHeader>
-                                <Image src="/images/izolacija.jpg" objectFit="cover" h="200px" w="100%" />
+                                <Image src="/images/zidovi.jpg" objectFit="cover" h="200px" w="100%" />
                             </CardHeader>
                             <CardBody>
                                 <VStack w="full" h="full" spacing={10} alignItems="flex-start">
