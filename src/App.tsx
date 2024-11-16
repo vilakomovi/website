@@ -200,8 +200,8 @@ function App() {
 
     const renderIntroImageSection = () => {
         return (
-            <Container overflow="hidden" maxWidth="100%" w="100%" height={{ base: 'auto', md: '800px' }} position="relative" p={0}>
-                <Image src="/images/naslovna.jpg" alt="Naslovna" style={{ objectFit: 'cover', width: '100%', zIndex: -1, position: 'relative' }} objectPosition={{ base: '0 0', md: '0 0px' }}/>
+            <Container overflow="hidden" maxWidth="100%" w="100%" height={{ base: 'auto', md: '800px' }} p={0}>
+                <Image src="/images/naslovna.jpg" alt="Naslovna" style={{ objectFit: 'cover', width: '100%', zIndex: -1 }} objectPosition={{ base: '0 0', md: '0 0px' }}/>
             </Container>
         )
     }
