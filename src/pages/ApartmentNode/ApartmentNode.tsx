@@ -87,7 +87,7 @@ const ApartmentNode = () => {
                                     {apartmentNode?.information.map((item, i) => (
                                         <Tr key={i}>
                                             <Td p={{ base: '10px 15px', md: '1rem 1.5rem' }}>{item.label}</Td>
-                                            <Td>{item.value}</Td>
+                                            <Td>{item.value}m&sup2;</Td>
                                         </Tr>
                                     ))}
                                 </Tbody>
